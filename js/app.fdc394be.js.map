@@ -1,0 +1,1 @@
+{"version":3,"file":"js/app.fdc394be.js","mappings":"yBAEAA,QAAQC,IAAI,sB","sources":["webpack://web-starter/./src/scripts/index.js"],"sourcesContent":["import '../styles/index.scss';\n\nconsole.log('webpack starterkit');\n"],"names":["console","log"],"sourceRoot":""}
