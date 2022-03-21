@@ -7,7 +7,10 @@
     "lint:styles": "stylelint src",
     "lint:scripts": "eslint src",
     "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.prod.js",
-    "start": "webpack serve --config webpack/webpack.config.dev.js"
+    "start": "webpack serve --config webpack/webpack.config.dev.js",
+    "commit": "git-cz",
+    "release": "standard-version",
+    "release:tags": "git push --follow-tags origin main"
   },
   "keywords": [
     "webpack",
@@ -17,7 +20,19 @@
     "javascript",
     "webdev"
   ],
-  "author": "webkid.io",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog",
+      "disableScopeLowerCase": false,
+      "disableSubjectLowerCase": false,
+      "pre-commit": "lint-staged"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.7",
@@ -27,6 +42,7 @@
     "@babel/preset-env": "^7.16.8",
     "babel-loader": "^8.2.3",
     "clean-webpack-plugin": "^4.0.0",
+    "commitizen": "^4.2.4",
     "copy-webpack-plugin": "^10.2.0",
     "cross-env": "^7.0.3",
     "css-loader": "^6.5.1",
@@ -35,11 +51,13 @@
     "file-loader": "^6.2.0",
     "html-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
+    "husky": "^7.0.4",
     "mini-css-extract-plugin": "^2.5.1",
     "node-sass": "^7.0.1",
     "postcss-loader": "^6.2.1",
     "postcss-preset-env": "^7.2.3",
     "sass-loader": "^12.4.0",
+    "standard-version": "^9.3.2",
     "style-loader": "^3.3.1",
     "stylelint": "^14.2.0",
     "stylelint-config-standard": "^24.0.0",
