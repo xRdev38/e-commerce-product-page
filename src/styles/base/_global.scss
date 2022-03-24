@@ -1,0 +1,12 @@
+@import "../vendors/variables";
+
+body {
+  margin: 0 auto;
+  color: $body-color;
+  font-family: sans-serif;
+}
+
+.separator {
+  margin: 0;
+  width: 100%;
+}
