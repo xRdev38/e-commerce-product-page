@@ -45,8 +45,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub project](https://github.com/xRdev38/e-commerce-product-page)
-- Live Site URL: [Add live site URL here](https://xrdev38.github.io/e-commerce-product-page)
+- Project: [GitHub project](https://github.com/xRdev38/e-commerce-product-page)
+- Preview: [Preview](https://xrdev38.github.io/e-commerce-product-page)
 
 ## My process
 
