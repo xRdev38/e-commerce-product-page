@@ -1,5 +1,7 @@
 # Frontend Mentor - E-commerce product page solution
 
+![GitHub CI](https://github.com/xRdev38/e-commerce-product-page/actions/workflows/build-deploy.yml/badge.svg)
+
 This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ![](./src/images/design/desktop-preview.jpg)
@@ -95,4 +97,3 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - Website - [xRdev38](https://github.com/xRdev38)
 - Twitter - [@RudyXxdevxX](https://www.twitter.com/yourusername)
-
